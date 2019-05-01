@@ -1,6 +1,4 @@
-# Bienvenue à Comprendre la recherche
-
-## La plateforme Comprendre la recherche
+# La plateforme Comprendre la recherche
 
 La plateforme Comprendre la recherche vise à aider les personnes à comprendre les concepts de base en recherche. Elle permet d’établir un langage commun entre les patients, les gestionnaires, les cliniciens et les chercheurs appelés à collaboration dans un projet de recherche
 
