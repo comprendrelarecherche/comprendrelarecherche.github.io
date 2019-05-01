@@ -1,37 +1,52 @@
-## Bienvenue à Comprendre la recherche
+# Bienvenue à Comprendre la recherche
 
-You can use the [editor on GitHub](https://github.com/comprendrelarecherche/comprendrelarecherche.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## La plateforme Comprendre la recherche
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+La plateforme Comprendre la recherche vise à aider les personnes à comprendre les concepts de base en recherche. Elle permet d’établir un langage commun entre les patients, les gestionnaires, les cliniciens et les chercheurs appelés à collaboration dans un projet de recherche
 
-### Markdown
+La plateforme est organisée par thèmes suivantes: une introduction à la science et la recherche, l’éthique, les méthodes qualitatives, quantitatives et mixtes, la dissémination des résultats et la lecture d’un article scientifique.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Les objectifs de la plateforme sont de :
 
-```markdown
-Syntax highlighted code block
+Aider les parties prenantes à comprendre et utiliser un langage commun de recherche
+Permettre aux équipes de recherche, aux patients et aux membres du public de bien préparer leur partenariat
+Guider les équipes de recherche, les patients et les membres du public à travers les étapes importantes de la recherche
+Permettra aux équipes de recherche, aux patients et aux membres du public d’avoir accès à plusieurs références externes qui les aideront dans leurs partenariats.
+À qui s’adresse cette plateforme ?
 
-# Header 1
-## Header 2
-### Header 3
+Comprendre la recherche s’adresse aux patients, gestionnaires, cliniciens et quiconque qui s’intéresse à la recherche et à la collaboration avec des chercheurs (les parties prenantes).
 
-- Bulleted
-- List
+## Table des matières
 
-1. Numbered
-2. List
+* Avant propos
 
-**Bold** and _Italic_ and `Code` text
+* Qui sommes nous
 
-[Link](url) and ![Image](src)
-```
+* Science et recherche : Introduction
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+* Revue de littérature
 
-### Jekyll Themes
+* Éthique de la recherche
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/comprendrelarecherche/comprendrelarecherche.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+* Méthodes
 
-### Support or Contact
+    * Méthodes quantitative
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+    * Méthodes qualitative
+
+    * Méthodes mixte
+
+* Mégadonnées
+
+* Recherches participatives
+
+* Application des connaissances
+
+* Comment lire un article
+
+* Communication scientifique
+
+* Glossaire
+
+* Matériel de formation
+
