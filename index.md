@@ -4,13 +4,14 @@ La plateforme Comprendre la recherche vise à aider les personnes à comprendre 
 
 La plateforme est organisée par thèmes suivantes: une introduction à la science et la recherche, l’éthique, les méthodes qualitatives, quantitatives et mixtes, la dissémination des résultats et la lecture d’un article scientifique.
 
-Les objectifs de la plateforme sont de :
+### Les objectifs de la plateforme sont de :
 
 Aider les parties prenantes à comprendre et utiliser un langage commun de recherche
 Permettre aux équipes de recherche, aux patients et aux membres du public de bien préparer leur partenariat
 Guider les équipes de recherche, les patients et les membres du public à travers les étapes importantes de la recherche
 Permettra aux équipes de recherche, aux patients et aux membres du public d’avoir accès à plusieurs références externes qui les aideront dans leurs partenariats.
-À qui s’adresse cette plateforme ?
+
+### À qui s’adresse cette plateforme ?
 
 Comprendre la recherche s’adresse aux patients, gestionnaires, cliniciens et quiconque qui s’intéresse à la recherche et à la collaboration avec des chercheurs (les parties prenantes).
 
