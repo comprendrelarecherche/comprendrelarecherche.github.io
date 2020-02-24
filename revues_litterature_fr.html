@@ -13,6 +13,8 @@
         <link href="css/font-awesome.min.css" rel="stylesheet">
         <link href="css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="css/cookiecuttr.css" rel="stylesheet">
+    
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -22,7 +24,19 @@
         <script src="js/jquery-1.10.2.min.js" defer></script>
         <script src="js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-        <script>hljs.initHighlightingOnLoad();</script> 
+        <script>hljs.initHighlightingOnLoad();</script>
+	<script src="./js/jquery.cookie.js" defer></script>
+    <script src="./js/jquery.cookiecuttr.js" defer></script>
+
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-158939469-2', 'comprendrelarecherche.github.io');
+            ga('send', 'pageview');
+        </script> 
     </head>
 
     <body>
@@ -188,6 +202,7 @@ De nos jours, les revues de la littérature représentent une grande partie de l
 </tr>
 </tbody>
 </table>
+<p><strong>Merci de nous aider à améliorer cette section en complétant <a href="https://forms.gle/mCutH1T6bLbAScNQ7" target="_blank">un court questionnaire</a>.</strong></p>
 <h2 id="comment-lire-un-article-scientifique">Comment lire un article scientifique</h2>
 <p>Le volume d'articles de recherche est en constante augmentation. Ils peuvent être organisés en trois grands groupes :</p>
 <ul>
@@ -293,6 +308,7 @@ De nos jours, les revues de la littérature représentent une grande partie de l
 </tbody>
 </table>
 <p>La lecture d'un article peut prendre beaucoup de temps au début et nécessiter de nombreuses lectures. Pendant que vous lisez, prenez des notes et faites une lecture critique - ne présumez pas que les auteurs ont toujours raison. Enfin, il existe différentes approches pour lire les articles de recherche. Certains disent qu'il ne faut pas lire le résumé ; d'autres disent qu'il faut d'abord lire le titre, le résumé et les conclusions. Essayez différentes approches et voyez ce qui fonctionne le mieux pour vous.</p>
+<p><strong>Merci de nous aider à améliorer cette section en complétant <a href="https://forms.gle/HGHS2Sb3QhtMvR7R7" target="_blank">un court questionnaire</a>.</strong></p>
 <h3 id="ressources-supplementaires">Ressources supplémentaires</h3>
 <ul>
 <li>
@@ -311,12 +327,15 @@ De nos jours, les revues de la littérature représentent une grande partie de l
             <hr>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
+	
         <script>
             var base_url = ".",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
         <script src="js/base.js" defer></script>
         <script src="search/main.js" defer></script>
+	<script src="./js/cookie_notice_for_gdpr.js" defer></script>
+
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
     <div class="modal-dialog">
