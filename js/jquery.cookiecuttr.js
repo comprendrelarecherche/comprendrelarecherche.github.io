@@ -35,7 +35,7 @@
             cookieMessage: 'We use cookies on this website, you can <a href="https://understandingresearch.github.io/#privacy-policy" title="read about our cookies">read about them here</a>. To use the website as intended please...',
             cookieAnalyticsMessage: 'Nous utilisons des témoins pour analyser nos modèles de trafic et améliorer notre contenu. En continuant à utiliser ce site, vous acceptez que nous utilisions des témoins. <a href="https://comprendrelarecherche.github.io/#politique-de-confidentialite">Lisez notre politique de confidentialité</a>.', // RM: we are using this message
             cookieErrorMessage: "We're sorry, this feature places cookies in your browser and has been disabled. <br>To continue using this functionality, please",
-            cookieWhatAreTheyLink: "http://www.allaboutcookies.org/",
+            cookieWhatAreTheyLink: "https://www.allaboutcookies.org/fr/",
             cookieDisable: '',
             cookieExpires: 365,
             cookieAcceptButtonText: "CONTINUEZ", // we are using this message
