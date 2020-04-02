@@ -9,20 +9,15 @@
         
         <link rel="shortcut icon" href="../img/favicon.ico">
         <title>Recherche qualitative - Comprendre la recherche</title>
-        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
         <link href="../css/cookiecuttr.css" rel="stylesheet">
     
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
 
         <script src="../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script>
 	<script src="../js/jquery.cookie.js" defer></script>
@@ -40,71 +35,63 @@
     </head>
 
     <body>
-
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-
-                <!-- Collapsed navigation -->
-                <div class="navbar-header">
-                    <!-- Expander button -->
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="../index.html">Comprendre la recherche</a>
-                </div>
+                <a class="navbar-brand" href="..">Comprendre la recherche</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <!-- Expanded navigation -->
-                <div class="navbar-collapse collapse">
+                <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li >
-                                <a href="../index.html">Accueil</a>
+                            <li class="navitem">
+                                <a href="../index.html" class="nav-link">Accueil</a>
                             </li>
-                            <li >
-                                <a href="../recherche_fr.html">Recherche</a>
+                            <li class="navitem">
+                                <a href="../recherche_fr.html" class="nav-link">Recherche</a>
                             </li>
-                            <li >
-                                <a href="../revues_litterature_fr.html">Revues de la littérature</a>
+                            <li class="navitem">
+                                <a href="../revues_litterature_fr.html" class="nav-link">Revues de la littérature</a>
                             </li>
                             <li class="dropdown active">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Méthodologie <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Méthodologie <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
-<li >
-    <a href="../methodologie_fr.html">Aperçu de la méthodologie</a>
+<li>
+    <a href="../methodologie_fr.html" class="dropdown-item">Aperçu de la méthodologie</a>
 </li>
                                     
-<li >
-    <a href="recherche_quantitative_fr.html">Recherche quantitative</a>
+<li>
+    <a href="recherche_quantitative_fr.html" class="dropdown-item">Recherche quantitative</a>
 </li>
                                     
-<li class="active">
-    <a href="recherche_qualitative_fr.html">Recherche qualitative</a>
+<li>
+    <a href="recherche_qualitative_fr.html" class="dropdown-item active">Recherche qualitative</a>
 </li>
                                     
-<li >
-    <a href="methodes_mixtes_fr.html">Méthodes mixtes</a>
+<li>
+    <a href="methodes_mixtes_fr.html" class="dropdown-item">Méthodes mixtes</a>
 </li>
                                     
-<li >
-    <a href="recherche_participative_fr.html">Recherche participative</a>
+<li>
+    <a href="recherche_participative_fr.html" class="dropdown-item">Recherche participative</a>
 </li>
                                 </ul>
                             </li>
-                            <li >
-                                <a href="../application_connaissances_fr.html">Application des connaissances</a>
+                            <li class="navitem">
+                                <a href="../application_connaissances_fr.html" class="nav-link">Application des connaissances</a>
                             </li>
-                            <li >
-                                <a href="http://understandingresearch.github.io/">English</a>
+                            <li class="navitem">
+                                <a href="http://understandingresearch.github.io/" class="nav-link">English</a>
                             </li>
                         </ul>
 
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
@@ -115,19 +102,54 @@
         </div>
 
         <div class="container">
-                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
-    <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#recherche-qualitative">Recherche qualitative</a></li>
-            <li><a href="#quand-utiliser-la-recherche-qualitative">Quand utiliser la recherche qualitative</a></li>
-            <li><a href="#collecte-de-donnees-qualitatives">Collecte de données qualitatives</a></li>
-            <li><a href="#transferabilite">Transférabilité</a></li>
-            <li><a href="#perspectives-et-dimensions">Perspectives et dimensions</a></li>
-            <li><a href="#cadres-de-reference">Cadres de référence</a></li>
-            <li><a href="#construction-et-deconstruction">Construction et déconstruction</a></li>
-            <li><a href="#ressources-supplementaires">Ressources supplémentaires</a></li>
-    </ul>
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#recherche-qualitative" class="nav-link">Recherche qualitative</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#quand-utiliser-la-recherche-qualitative" class="nav-link">Quand utiliser la recherche qualitative</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#collecte-de-donnees-qualitatives" class="nav-link">Collecte de données qualitatives</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#transferabilite" class="nav-link">Transférabilité</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#perspectives-et-dimensions" class="nav-link">Perspectives et dimensions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#cadres-de-reference" class="nav-link">Cadres de référence</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#construction-et-deconstruction" class="nav-link">Construction et déconstruction</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#ressources-supplementaires" class="nav-link">Ressources supplémentaires</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
 </div></div>
-                <div class="col-md-9" role="main">
+                    <div class="col-md-9" role="main">
 
 <h1 id="recherche-qualitative">Recherche qualitative</h1>
 <h2 id="quand-utiliser-la-recherche-qualitative">Quand utiliser la recherche qualitative</h2>
@@ -180,6 +202,7 @@ La recherche qualitative nous permet de comprendre les phénomènes de différen
 <ul>
 <li><strong><a href="https://www.youtube.com/watch?v=IsAUNs-IoSQ" target="_blank">Overview of qualitative research methods</a></strong> : Vidéo YouTube (12 minutes; en anglais)</li>
 </ul></div>
+            </div>
         </div>
 
         <footer class="col-md-12">
@@ -197,19 +220,19 @@ La recherche qualitative nous permet de comprendre les phénomènes de différen
 	<script src="../js/cookie_notice_for_gdpr.js" defer></script>
 
 
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
-    <div class="modal-dialog">
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
             </div>
             <div class="modal-body">
                 <p>
                     From here you can search these documents. Enter
                     your search terms below.
                 </p>
-                <form role="form">
+                <form>
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
                     </div>
@@ -220,12 +243,12 @@ La recherche qualitative nous permet de comprendre les phénomènes de différen
             </div>
         </div>
     </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
             </div>
             <div class="modal-body">
               <table class="table">
